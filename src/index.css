@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --teal: #1787ac;
+  --teal-2: #2AA3B8;
+  --teal-dark: #145f76;
+  --ink: #1c1f24;
+  --body: #4a5058;
+  --muted: #8c939c;
+  --border: #dfe3e8;
+  --olive-bg: #c3d99a;
+  --olive-text: #4a5a1f;
+  --tag-risk: #c0453a;
+  --tag-active: #2e8b7a;
+  --tag-pending: #8c939c;
+
+  --accent-project: #2F5FE0;
+  --accent-competitor: #c0453a;
+  --accent-marketing: #D6336C;
+  --accent-ea: #7C4DFF;
+  --accent-team: #2e8b7a;
+  --accent-ops: #0EA5C4;
+  --accent-new: #65A30D;
+  --accent-news: #E1553F;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+  color: var(--ink);
+  margin: 0;
+}
+
+a { color: inherit; text-decoration: none; }
